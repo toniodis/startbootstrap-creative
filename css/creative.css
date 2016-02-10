@@ -28,7 +28,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #ffffff;
 }
 h1,
 h2,
@@ -54,7 +54,7 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 100px 0;
+  padding: 60px 0 40px;
 }
 aside {
   padding: 50px 0;
@@ -149,7 +149,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
+  background-position: bottom center;
   background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
@@ -224,7 +224,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(246, 43, 0, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -338,7 +338,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #ee4b28;
+  background-color: #FF2100;
   border-color: #ed431f;
 }
 .btn-primary:active,
@@ -401,4 +401,72 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+/*dibu parts*/
+@font-face {
+  font-family:'icomoon';
+  src:url("../fonts/icomoon.eot?-pm955s");
+  src:url("../fonts/icomoon.eot?#iefix-pm955s") format('embedded-opentype'),url("../fonts/icomoon.woff?-pm955s") format('woff'),url("../fonts/icomoon.ttf?-pm955s") format('truetype'),url("../fonts/icomoon.svg?-pm955s#icomoon") format('svg');
+  font-weight:normal;
+  font-style:normal
+}
+[class^="icon-"],[class*=" icon-"] {
+  font-family:'icomoon';
+  speak:none;
+  font-style:normal;
+  font-weight:normal;
+  font-variant:normal;
+  text-transform:none;
+  line-height:1;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+.icon-gplus:before {
+  content:"\ea89  "
+}
+.icon-fb:before {
+  content:"\ea8d  "
+}
+.icon-twitter:before {
+  content:"\ea91  "
+}
+.icon-youtube:before {
+  content:"\ea97  "
+}
+.icon-github:before {
+  content:"\eab1  "
+}
+.icon-linkedin:before {
+  content:"\eac8  "
+}
+.Profile-link {
+  -webkit-border-radius:2em;
+  border-radius:2em;
+  color:#D3D5B9;
+  margin-right:.5em;
+  padding:.5em 1em;
+  text-decoration:none;
+  display:inline-block;
+  margin-bottom:1em;
+}
+.Profile-link.twitter {
+  background:#00aced
+}
+.Profile-link.facebook {
+  background:#3b5998
+}
+.Profile-link.github {
+  background:#5f04b4
+}
+.Profile-link.linkedin {
+  background:#007bb6
+}
+.Profile-link.gplus {
+  background:#007bb6
+}
+.Profile-link.youtube {
+  background:#b00
+}
+.Profile-link.vine {
+  background:#00bf8f
 }
